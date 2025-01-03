@@ -1,5 +1,10 @@
-Cleaning Robot Solution : The cleaning robot is tasked with traversing multiple rectangular areas and reporting its position at specific time intervals. The robot moves along the edges of the rectangles in a clockwise direction and transitions between rectangles when necessary. 
-The challenge includes ensuring logical transitions between rectangles and returning the robot's position at queried times.
+# Cleaning Robot Solution
+
+## Overview
+The cleaning robot is designed to traverse multiple rectangular areas and report its position at specific time intervals. It moves along the edges of the rectangles in a clockwise direction and transitions seamlessly between rectangles when necessary. The challenge is to ensure logical transitions and accurate position reporting for the queried times.
+
+## Test Cases and Results
+
 | Test Case | Input Rectangles                                              | Query Times             | Output Positions                                      | Status  |
 | --------- | ------------------------------------------------------------- | ----------------------- | ----------------------------------------------------- | ------- |
 | **1**     | (1,1)-(4,4), (5,5)-(7,7)                                      | 1, 2, 3, 4, 5           | [2,1], [3,1], [4,1], [4,2], [4,3]                     | Correct |
@@ -9,4 +14,11 @@ The challenge includes ensuring logical transitions between rectangles and retur
 | **5**     | (100,100)-(200,200), (150,150)-(250,250), (300,300)-(400,400) | 50, 100, 150, 200, 250  | [150,100], [200,100], [200,150], [200,200], [150,200] | Correct |
 | **6**     | (1,1)-(1000,1000)                                             | 100, 200, 300, 400, 500 | [101,1], [201,1], [301,1], [401,1], [501,1]           | Correct |
 
+## Instructions
 
+1. **Clone the Repository**: Ensure you have access to the repository containing the source code.
+2. **Compile the Java Files**:
+   ```bash
+   javac com/ia/iccp/losung/CleaningRobot.java
+   javac com/ia/iccp/CleaningRobotTest.java
+## Source: https://icpckorea.org/static/2024_problemset.pdf
